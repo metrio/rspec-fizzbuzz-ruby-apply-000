@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
- int = gets.string
+ int = gets.script
   if  int % 3 == 0
     puts "Fizz"
   end

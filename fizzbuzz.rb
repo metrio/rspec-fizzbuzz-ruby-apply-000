@@ -3,13 +3,16 @@
 
 def fizzbuzz(i)
 
-  if a = i % 3 == 0 
+  if i % 15 == 0
+    "FizzBuzz"
+  
+  elsif  i % 3 == 0 
      "Fizz"
-  elsif b = i % 5 == 0
+  
+  elsif  i % 5 == 0
      "Buzz"
-  when a && b =TRUE
-     "FizzBuzz"
   
   elsif nil
-        end
+        
+  end
 end

@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(i)
-  if  int % 3 == 0
+  if  i % 3 == 0
     puts "Fizz"
   end
 end

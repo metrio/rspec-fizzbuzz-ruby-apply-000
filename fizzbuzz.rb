@@ -2,7 +2,15 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(i)
-  if  i % 3 == 0
-     "Fizz"
+    if  i % 3 == 0
+      "Fizz"
+   
+    elsif i % 5 == 0
+      "Buzz"
+    
+    elsif i % 15 == 0 
+      "FizzBuzz"
+  
+    elsif nil
   end
 end

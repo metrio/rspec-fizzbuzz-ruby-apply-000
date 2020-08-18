@@ -2,14 +2,17 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-  
-  if int % 3 == 
+ 
+      remain = int % 3
+  if  % 3 == 
     puts "Fizz"
       
-  elsif int %  5 == 
+      remain = int % 5
+  elsif  %  5 == 
     puts "Buzz"
       
-  elsif int % 15 == 
+      remain = int % 15
+  elsif  % 15 == 
     puts "Fizzbuzz"
       
   elsif

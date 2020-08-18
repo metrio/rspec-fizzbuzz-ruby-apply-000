@@ -2,16 +2,14 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(i)
-    
-    if i % 15 == 0
-      "FizzBuzz"
-   
-     elsif i % 5 == 0
-      "Buzz"
-    
-    elsif i % 3 == 0
-      "Fizz"    
-    
-    elsif nil
+
+  if a = i % 3 == 0 
+     "Fizz"
+  elsif b = i % 5 == 0
+     "Buzz"
+  elsif a && b =TRUE
+     "FizzBuzz"
+  
+  elsif nil
         end
 end

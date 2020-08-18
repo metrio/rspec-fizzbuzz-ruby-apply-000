@@ -3,13 +3,13 @@
 
 def fizzbuzz(int)
   
-  if fizzbuzz(int) % 3 == 3 
+  if int % 3 == 3 
     puts "Fizz"
       
-  elsif fizzbuzz(int) %  5 == 5
+  elsif int %  5 == 5
     puts "Buzz"
       
-  elsif fizzbuzz(int) % 15 == 15
+  elsif int % 15 == 15
     puts "Fizzbuzz"
       
   elsif

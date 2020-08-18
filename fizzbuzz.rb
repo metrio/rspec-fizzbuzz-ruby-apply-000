@@ -11,6 +11,5 @@ def fizzbuzz(i)
     elsif i % 3 && i % 5
       "FizzBuzz"
   
-    elsif nil
   end
 end

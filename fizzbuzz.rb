@@ -7,7 +7,7 @@ def fizzbuzz(i)
      "Fizz"
   elsif b = i % 5 == 0
      "Buzz"
-  elsif a && b =TRUE
+  when a && b =TRUE
      "FizzBuzz"
   
   elsif nil
